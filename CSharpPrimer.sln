@@ -5,7 +5,9 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Numbers", "CSharpPrimer\Numbers.csproj", "{61EB4F8A-A7C5-416E-AD92-F18FC3A517D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherData", "WeatherData\WeatherData.csproj", "{CCA4CF4F-A40C-4C76-9467-49936529BDD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Badly done WP", "WeatherData\Badly done WP.csproj", "{CCA4CF4F-A40C-4C76-9467-49936529BDD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherProject", "WeatherProject\WeatherProject.csproj", "{81AAA6F8-E329-47E4-9883-38A37F2D737B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{CCA4CF4F-A40C-4C76-9467-49936529BDD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCA4CF4F-A40C-4C76-9467-49936529BDD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCA4CF4F-A40C-4C76-9467-49936529BDD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81AAA6F8-E329-47E4-9883-38A37F2D737B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81AAA6F8-E329-47E4-9883-38A37F2D737B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81AAA6F8-E329-47E4-9883-38A37F2D737B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81AAA6F8-E329-47E4-9883-38A37F2D737B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

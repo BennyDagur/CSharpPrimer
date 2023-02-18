@@ -10,7 +10,7 @@
 
         while (inputCheck) { 
             string input = Console.ReadLine();
-            if (input.Trim() == "")
+            if (input.Trim() == "" && numbers.Count() > 0)
             {
                 inputCheck = false;
             } else if (!int.TryParse(input, out listNumbers)) {

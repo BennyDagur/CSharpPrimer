@@ -1,4 +1,6 @@
-﻿class Program
+﻿/* This Is not the way to do this
+ * 
+ * class Program
 {
     class WeatherData
     {
@@ -19,14 +21,14 @@
             while (tempCheck)
             {
                 Console.WriteLine($"Input temperature at or between {minValue} and {maxValue}");
-                wi.temperature = int.Parse(Console.ReadLine());
-                if (wi.temperature >= minValue && wi.temperature <= maxValue)
+                string tempValue = Console.ReadLine();
+                if (int.TryParse(tempValue, out wi.temperature) && wi.temperature >= minValue && wi.temperature <= maxValue)
                 {
                     while (humidCheck)
                     {
                         Console.WriteLine("Input humidity at or between 0% and 100%");
-                        wi.humidity = int.Parse(Console.ReadLine());
-                        if (wi.humidity >= 0 && wi.humidity <= 100)
+                        string humidValue = Console.ReadLine();
+                        if (int.TryParse(humidValue, out wi.humidity) && wi.humidity >= 0 && wi.humidity <= 100)
                         {
                             humidCheck = false;
                             tempCheck = false;
@@ -103,7 +105,9 @@
         }
 
 
-            /*
+
+
+
              * I thought this wouldn't work not realizing I could fit In the logic
              
             static void Convert(int minValue, int maxValue, string scaleValue)
@@ -173,7 +177,7 @@
                     Convert(-76, 140, wi.scale);
                 }
             }
-            */
+            
         }
-    }
+    }*/
         
